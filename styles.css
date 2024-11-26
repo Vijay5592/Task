@@ -1,0 +1,231 @@
+/* General Styles */
+body {
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    color: #333;
+    line-height: 1.6;
+    box-sizing: border-box;
+  }
+  
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  /* Header Section */
+  .hero {
+    background: no-repeat center center/cover;
+
+    color: #aca5a5; 
+    text-align: center;
+    padding: 100px 20px;
+    position: relative;
+  }
+  
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background: rgba(0, 0, 0, 0.8);
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+  }
+  
+  .nav-links {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+  }
+  
+  .nav-links a {
+    color: #bdb0b0;
+    text-decoration: none;
+    font-weight: 500;
+    transition: color 0.3s;
+  }
+  
+  .nav-links a:hover {
+    color: gold;
+  }
+  
+  .cta-button {
+    background: gold;
+    color: #333;
+    padding: 10px 20px;
+    border-radius: 25px;
+    text-decoration: none;
+  }
+  
+  .hero-content {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .hero-buttons {
+    margin-top: 20px;
+  }
+  
+  .hero-buttons .button {
+    display: inline-block;
+    margin: 10px;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-align: center;
+  }
+  
+  .gold {
+    background: gold;
+    color: #afadad;
+  }
+  
+  .outline {
+    border: 2px solid gold;
+    color: gold;
+  }
+  
+  /* About Section */
+  .about {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    padding: 50px 20px;
+    background: url(https://images.unsplash.com/photo-1505843513577-22bb7d21e455?fm=jpg&q=60&w=3000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8bHV4dXJ5JTIwaG91c2V8ZW58MHx8MHx8fDA%3D) no-repeat center center/cover;;
+  
+  }
+ 
+  .testimonials {
+    background: #333;
+    color: #b4aaaa;
+    text-align: center;
+    padding: 50px 20px;
+  }
+  
+  .testimonial {
+    margin: 20px 0;
+  }
+  
+  .testimonial h4 {
+    margin-top: 10px;
+    font-weight: 600;
+  }
+  
+  
+  .about-text {
+    flex: 1;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .about img {
+    flex: 1;
+    max-width: 500px;
+    margin: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+  }
+
+  
+  /* Services Section */
+  .services {
+    text-align: center;
+    padding: 50px 20px;
+
+  }
+  
+  .service-cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+  }
+  
+  .card {
+    background: #0f0f0f;
+    color: #f9f9f9;
+    border-radius: 8px;
+    padding: 20px;
+    width: 300px;
+    text-align: center;
+    box-shadow: 0 4px 6px rgba(165, 163, 163, 0.1);
+  }
+  
+  .card img {
+    border-radius: 8px;
+    margin-bottom: 15px;
+  }
+  
+  /* Testimonials Section */
+  .testimonials {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 50px 20px;
+  }
+  
+  .testimonial {
+    margin: 20px 0;
+  }
+  
+  .testimonial h4 {
+    margin-top: 10px;
+    font-weight: 600;
+  }
+  
+  /* Contact Section */
+  .contact {
+    background: #f9f9f9;
+    text-align: center;
+    padding: 50px 20px;
+      filter: blur();
+}
+  
+  .contact form {
+    border: #333;
+    max-width: 600px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+  
+  .contact input, .contact textarea, .contact button {
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+  }
+  
+  .contact button {
+    background: gold;
+    color: #fff;
+    font-weight: bold;
+  }
+  
+  /* Footer */
+  .footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 10px;
+  }
+  
+  .footer p, .footer a {
+    color: #fff;
+    font-size: 14px;
+    margin: 5px 0;
+  }
+  
+  .footer a:hover {
+    color: gold;
+  }
+  
+  .social-links {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+  }
+  
